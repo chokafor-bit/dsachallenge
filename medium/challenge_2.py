@@ -1,12 +1,12 @@
 def move_zeros(numbers):
     # pass 
-    insert_pos = 0
-    for num in numbers:
-        if num  != 0:
-            numbers[insert_pos] = num
-            insert_pos += 1
+    insert_pos = 0   # created a variable insert_pos and set it to 0 
+    for num in numbers:  # loop through the numbers in the given list
+        if num  != 0:    # if num is not equal to 0
+            numbers[insert_pos] = num   # we insert the position 
+            insert_pos += 1       # and increment it by 1
 
-    for i in range(insert_pos, len(numbers)):
+    for i in range(insert_pos, len(numbers)): #, we used a loop to calculate the pos and len of numbers and index it to the first number 
         numbers[i] = 0 
 
 
