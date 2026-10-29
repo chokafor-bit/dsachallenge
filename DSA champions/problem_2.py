@@ -10,7 +10,7 @@ def find_smallest(numbers):
 
     for num in numbers[1:]:                     # the loop  the remaining numbers and cmpare 
 
-        if num < smallest: 
+        if num < smallest:        # if the smallest number is less 
             smallest = num 
 
     return smallest                                      # return the final result 

@@ -10,7 +10,7 @@ def find_largest(numbers):
 
     for num in numbers[1:]:        # the loop  the remaining numbers and cmpare 
  
-        if num > largest: 
+        if num > largest:         # if the  number is largest 
             largest = num 
 
     return largest                 # return the final result 
