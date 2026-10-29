@@ -1,11 +1,11 @@
 def find_number(numbers, target):
-    #  Loop through the list with indices and check for a match
-    for index, num in enumerate(numbers):
+    for index, num in enumerate(numbers):          #  Loop through the list with indices and check for a match
+   
         if num == target:
-            #  Return the index immediately on the first occurrence
-            return index 
-            # Return -1 if the target was not found in the list 
-    return  -1       
+            return index                   #  Return the index immediately on the first occurrence
+
+    return  -1                     # Return -1 if the target was not found in the list 
+
 
 
 print(find_number([10, 25, 30, 45], 30))

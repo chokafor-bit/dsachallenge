@@ -1,19 +1,23 @@
 
 
 def find_smallest(numbers):
-    #handle the edge cases for empty list 
-    if not numbers:
+    if not numbers:               #handle the edge cases for empty list 
+
         return None 
 
-    # Initailize our tracker with the first element 
-    smallest  =  numbers[0]
+    smallest  =  numbers[0]            # Initailize our tracker with the first element 
+ 
 
-    # the loop  the remaining numbers and cmpare 
-    for num in numbers[1:]:
+    for num in numbers[1:]:                     # the loop  the remaining numbers and cmpare 
+
         if num < smallest: 
             smallest = num 
 
-    # return the final result 
-    return smallest          
+    return smallest                                      # return the final result 
+
+
+
+
+
 print(find_smallest([8, 3, 12, 1, 7]))
 print(find_smallest([-3, -10, -1, -6]))
